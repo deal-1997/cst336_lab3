@@ -7,7 +7,7 @@
     <body>
         
         <h1> Sign Up </h1>
-
+        <form action="thankyoumessage.php">
 
         First Name: <input type="text"  name="fName"><br> 
         Last Name:  <input type="text"  name="lName"><br> 
@@ -35,7 +35,7 @@
         Password Again:   <input type="password" id="passwordAgain">
                           <span id="passwordAgainError"></span> <br /><br>
        
-        <a href="thankyoumessage.php">Sign Up</a>
+        <button> Sign Up </button>
     
     </form>
 
